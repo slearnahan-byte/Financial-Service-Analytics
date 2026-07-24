@@ -38,8 +38,8 @@ FROM
 
 -- Create empty table
 CREATE TABLE clean_accounts (
-	, AccountID INT PRIMARY KEY
-	, CusomerID INT
+	AccountID INT PRIMARY KEY
+	, CustomerID INT
 	, AccountTypeID INT
 	, AccountStatusID INT
 	, Balance REAL
