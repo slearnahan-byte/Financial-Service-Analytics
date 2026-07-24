@@ -46,7 +46,7 @@ CREATE TABLE clean_customers (
     , LastName TEXT
     , CustomerDisplayName TEXT
     , DateOfBirth TEXT
-	, AGE INT
+	, Age INT
     , AddressID INT
     , CustomerTypeID INT
 );
