@@ -57,22 +57,6 @@ Designed and implemented an interactive Power BI dashboard (Finance Fraud & Loan
 
 
 ---
-
-## Evaluation Strategy
-
-Because stroke outcomes are highly imbalanced, model evaluation focused on metrics beyond accuracy:
-
-- **PR-AUC (Average Precision)** — primary optimization metric
-- Recall
-- Precision
-- F1-score
-- ROC-AUC
-- Confusion matrices
-
-Threshold optimization was performed to evaluate tradeoffs between detecting high-risk patients and limiting false positives.
-
----
-
 ## Evaluation Strategy
 
 Data validation focused on verifying transformation accuracy and data pipeline stability:
