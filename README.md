@@ -17,7 +17,7 @@ The focus is on enforcing data integrity, resolving data quality issues, and con
 ## Project Workflow
 
 ### 01 — Data Cleaning & Validation
--Inspected table structures and data types across raw banking entities (customers, accounts, loans, transactions, addresses)
+- Inspected table structures and data types across raw banking entities (customers, accounts, loans, transactions, addresses)
 - Enforced structural integrity by defining primary keys across clean target tables.
 - Identified and extracted duplicate records using SQL window functions (COUNT(*) OVER(PARTITION BY ...)) via dedicated investigation views
 
