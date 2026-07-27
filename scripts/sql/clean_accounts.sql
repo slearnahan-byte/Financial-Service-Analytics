@@ -59,6 +59,7 @@ INSERT INTO clean_accounts
 		-- Time components are meaningless data noise with mostly 00:00:00.000000
 		, DATE(OpeningDate) AS OpeningDate
 	FROM accounts
+	ORDER BY AccountID
 ;
 
 -- Verify results
