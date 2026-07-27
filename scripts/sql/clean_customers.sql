@@ -106,6 +106,7 @@ INSERT INTO clean_customers
 		, AddressID
 		, CustomerTypeID
 	FROM customers
+	ORDER BY CustomerID
 ;
 
 -- Verify results
