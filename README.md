@@ -11,6 +11,21 @@ This project demonstrates a complete data analytics workflow:
 - Entity aggregation and metric engineering
 - Dashboard visualization and data modeling
 
+## Key Insights
+- **Total Portfolio:** 1.1K all-time total customers holding 1.65K all-time accounts, with an average of 1.92 accounts per customer.
+  - 770 active customers holding 1.33K accounts.
+  - Uniform distribution across account type.
+  - 
+- **Customer Demographics:** The average customer age is 46.35 years, with the largest concentration of customers falling in the 50–64 age group, followed by 35–49.
+  
+- **Balances:** The average customer portfolio balance (all accounts) stands at $94.01K, while the average individual account balance is $49.08K.
+  - 
+  
+- **Adoption Rate:** An account adoption rate of 0.78 (against a target benchmark of 0.85).
+
+- **Time Trends:** The number of new customers was greatest in 2018 but showed a steady decline through 2022. The number of new accounts regardless of type was stable from 2018 through 2022.
+  - In 2018 and 2019, the largest account acquisitions occurred in Q3 and Q4, while in 2020 the largest account acquisition occurred in Q1 & Q3, and Q1 & Q2, respectively.
+
 The focus is on enforcing data integrity, resolving data quality issues, and constructing analytical summaries for financial risk and customer activity.
 ---
 
@@ -39,7 +54,7 @@ Designed and implemented an interactive Power BI dashboard (Finance Fraud & Loan
 
 | View | Purpose |
 |---|---|
-| Customer & Account Overview | Interpretable baseline model |
+| Customer & Account Overview | Visualizing dynamic customer demographics, account counts, age groups, and portfolio balances |
 
 
 ---
