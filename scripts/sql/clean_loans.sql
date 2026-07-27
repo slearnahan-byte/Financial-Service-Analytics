@@ -81,6 +81,7 @@ INSERT INTO clean_loans
 			ELSE DATE(EstimatedEndDate)
 		END AS EstimatedEndDate
 	FROM loans
+	ORDER BY LoanID
 ;
 
 -- Verify results
