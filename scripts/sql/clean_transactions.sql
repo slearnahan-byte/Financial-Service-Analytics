@@ -86,6 +86,7 @@ INSERT INTO clean_transactions
 				ELSE NULL
 			END AS Description
 		FROM transactions
+		ORDER BY TransactionID
 ;
 
 SELECT * FROM clean_transactions
