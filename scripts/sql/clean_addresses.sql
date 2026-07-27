@@ -44,4 +44,5 @@ CREATE VIEW clean_addresses AS
 		-- all entries appear to be from the U.S.
 		, 'United States' AS Country
 	FROM addresses
+	ORDER BY AddressID
 ;
